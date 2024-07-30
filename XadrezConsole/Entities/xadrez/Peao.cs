@@ -37,19 +37,20 @@ namespace xadrez
                 }
                 
                 pos.DefinirValores(Posicao.Linha - 2, Posicao.Coluna);
-                if(Tabuleiro.PosicaoValida(pos) && Livre(pos) && QtdeMovimentos == 0)
+                Posicao p2 = new Posicao(Posicao.Linha - 1, Posicao.Coluna);
+                if(Tabuleiro.PosicaoValida(p2) && Livre(p2) && Tabuleiro.PosicaoValida(pos) && Livre(pos) && QtdeMovimentos == 0)
                 {
                     mat[pos.Linha, pos.Coluna] = true;
                 }
 
                 pos.DefinirValores(Posicao.Linha - 1, Posicao.Coluna - 1);
-                if(Tabuleiro.PosicaoValida(pos) && Livre(pos))
+                if(Tabuleiro.PosicaoValida(pos) && ExisteInimigo(pos))
                 {
                     mat[pos.Linha, pos.Coluna] = true;
                 }
 
                 pos.DefinirValores(Posicao.Linha - 1, Posicao.Coluna + 1);
-                if(Tabuleiro.PosicaoValida(pos) && Livre(pos))
+                if(Tabuleiro.PosicaoValida(pos) && ExisteInimigo(pos))
                 {
                     mat[pos.Linha, pos.Coluna] = true;
                 }
@@ -63,19 +64,20 @@ namespace xadrez
                 }
 
                 pos.DefinirValores(Posicao.Linha + 2, Posicao.Coluna);
-                if (Tabuleiro.PosicaoValida(pos) && Livre(pos) && QtdeMovimentos == 0)
+                Posicao p2 = new Posicao(Posicao.Linha + 1, Posicao.Coluna);
+                if(Tabuleiro.PosicaoValida(p2) && Livre(p2) && Tabuleiro.PosicaoValida(pos) && Livre(pos) && QtdeMovimentos == 0)    
                 {
                     mat[pos.Linha, pos.Coluna] = true;
                 }
 
                 pos.DefinirValores(Posicao.Linha + 1, Posicao.Coluna - 1);
-                if (Tabuleiro.PosicaoValida(pos) && Livre(pos))
+                if (Tabuleiro.PosicaoValida(pos) && ExisteInimigo(pos))
                 {
                     mat[pos.Linha, pos.Coluna] = true;
                 }
 
                 pos.DefinirValores(Posicao.Linha + 1, Posicao.Coluna + 1);
-                if (Tabuleiro.PosicaoValida(pos) && Livre(pos))
+                if (Tabuleiro.PosicaoValida(pos) && ExisteInimigo(pos))
                 {
                     mat[pos.Linha, pos.Coluna] = true;
                 }

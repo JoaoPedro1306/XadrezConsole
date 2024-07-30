@@ -46,5 +46,11 @@
         }
 
         public abstract bool[,] MovimentosPossiveis();
+
+        protected internal bool PodeMover(Posicao pos)
+        {
+            Peca p = Tabuleiro.Peca(pos);
+            return p == null || p.Cor != Cor;
+        }
     }
 }
