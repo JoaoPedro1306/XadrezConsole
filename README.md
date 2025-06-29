@@ -24,4 +24,4 @@ Projeto desenvolvido como parte do curso de C# com foco em Programação Orienta
 4. Siga as instruções no console para movimentar as peças (ex: `a2` para `a4`).
 
 ## 📸 Exemplo de Execução
-> ![Image](https://github.com/JoaoPedro1306/users-filter-project/issues/2#issue-3185650145)
+> ![Image](https://private-user-images.githubusercontent.com/79612456/460267735-4f247040-ac0b-467d-827c-ec2ed678c994.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTExNjIyNzQsIm5iZiI6MTc1MTE2MTk3NCwicGF0aCI6Ii83OTYxMjQ1Ni80NjAyNjc3MzUtNGYyNDcwNDAtYWMwYi00NjdkLTgyN2MtZWMyZWQ2NzhjOTk0LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA2MjklMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNjI5VDAxNTI1NFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTQzMWJlNDQ2Y2ZiMDJhNDFhNTk2YmIyNjk4Mjg0YjZkYmQzNGI5MDNlOWJmYzZlZWRkNDI2NWQ0NGQzMWJjMjgmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.XkNgYmIzzaxQjV3evKRIFM9z8A9dtDfRSm42RUQ9GNM)
